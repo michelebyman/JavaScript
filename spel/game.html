@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Game</title>
+  </head>
+  <body>
+        <canvas id="gameCanvas" class="gameCanvas" width="800" height="600"></canvas>
+
+        <script type="text/javascript">
+          var canvas;
+          var canvasContext;
+
+          window.onload = function() {
+            console.log("hello world!");
+            canvas = document.querySelector('.canvasGame');
+            canvasContext = canvas.getContext('2d');
+            canvasContext.fillstyle = 'black';
+            canvasContext.fillRect(0,0,canvas.width,canvas.height);
+          };
+
+
+        </script>
+
+  </body>
+</html>
